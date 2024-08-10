@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_rmzit *.css
+recursive-include frappe_rmzit *.csv
+recursive-include frappe_rmzit *.html
+recursive-include frappe_rmzit *.ico
+recursive-include frappe_rmzit *.js
+recursive-include frappe_rmzit *.json
+recursive-include frappe_rmzit *.md
+recursive-include frappe_rmzit *.png
+recursive-include frappe_rmzit *.py
+recursive-include frappe_rmzit *.svg
+recursive-include frappe_rmzit *.txt
+recursive-exclude frappe_rmzit *.pyc
